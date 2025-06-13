@@ -1,0 +1,12 @@
+package _05_arraylist;
+import java.util.ArrayList;
+import java.util.Date;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+	    	    
+	}
+	
+}

@@ -1,0 +1,15 @@
+package _07_animali;
+import java.util.ArrayList;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Animale gino = new Gatto("Gino"); 
+		
+		Rifugio speranza = new Rifugio();
+		
+		speranza.aggiungiAnimale(gino);
+	}
+
+}

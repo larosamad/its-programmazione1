@@ -1,0 +1,12 @@
+package _07_animali;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Gatto gino = new Gatto("Gino"); 
+		gino.descrizione();
+		gino.emettiVerso();
+	}
+
+}

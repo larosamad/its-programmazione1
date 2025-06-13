@@ -1,0 +1,16 @@
+package _06_abstract;
+
+public abstract class Forma {
+	public abstract double calcolaArea();
+	public abstract double calcolaPerimetro();
+	
+	public double calcolaArea(double base, double altezza) {
+		double area = base * altezza;
+		return area;
+	}
+	
+	public double calcolaPerimetro(double latoA, double latoB, double latoC) {
+		double perimetro = latoA + latoB + latoC;
+		return perimetro;
+	}
+}

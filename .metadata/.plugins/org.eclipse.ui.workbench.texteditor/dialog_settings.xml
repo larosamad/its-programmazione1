@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="selection" value="        productsList.remove(0);"/>
+		<list key="findhistory">
+			<item value="        productsList.remove(0);"/>
+			<item value="&#x09;&#x09;Scanner scanner = new Scanner(System.in);"/>
+		</list>
+	</section>
+</section>

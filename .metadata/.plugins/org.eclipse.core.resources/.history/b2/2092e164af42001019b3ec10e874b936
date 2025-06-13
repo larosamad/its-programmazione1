@@ -1,0 +1,9 @@
+package _04_arraylist;
+import java.util.ArrayList;
+import Java.util.Date;
+
+
+public class Product {
+	ArrayList<String> ProductsList = new ArrayList<>()
+
+}

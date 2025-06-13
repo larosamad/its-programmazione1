@@ -1,0 +1,23 @@
+package _05_arraylist;
+import java.util.ArrayList;
+import java.util.Date;
+
+
+public class Main {
+	public static void main(String[] args) {
+		ArrayList<Product> productsList = new ArrayList<Product>();
+		Product mozzarella = new Product("Mozzarella", "Santa Lucia", 3.2, LocalDate.of(2025,8,1));
+		productsList.add(mozzarella);
+		
+		for( Product prodotto: productsList){
+			System.out.println(prodotto);
+		}
+		
+		System.out.println("\n*****\n");
+		
+		Product pomodoro = new Product("Pomodoro", "San Marzano", 2, LocalDate.of(2025,8,1));
+		productsList.add(pomodoro);
+    	    
+	}
+	
+}

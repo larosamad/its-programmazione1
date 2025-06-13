@@ -1,0 +1,29 @@
+package _06_abstract;
+
+public class Rettangolo extends Forma {
+	private double base;
+	private double altezza;
+	private double latoA;
+	private double latoB;
+	
+
+	public Rettangolo(double base, double altezza, double latoA, double latoB) {
+		this.base = base;
+		this.altezza = altezza;
+		this.latoA = latoA;
+		this.latoB = latoB;
+	}
+
+	@Override
+	public double calcolaArea() {
+		double area = (base * altezza);
+		return area;
+	}
+
+	@Override
+	public double calcolaPerimetro() {
+		double perimetro = 2 * latoA + 2 * latoB;
+		return perimetro;
+	}
+}
+

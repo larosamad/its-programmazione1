@@ -1,0 +1,22 @@
+package _06_abstract;
+
+public class Triangolo extends Forma {
+
+	@Override
+	public double calcolaArea(double base, double altezza) {
+		double area = base * altezza;
+		return area;
+	}
+
+	@Override
+	public double calcolaPerimetro(double latoA, double latoB, double latoC) {
+		double perimetro = latoA + latoB + latoC;
+		return perimetro;
+	}
+
+}
+
+
+
+
+
