@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="java.lang.Class">
-		<item key="selection" value="        productsList.remove(0);"/>
+		<item key="selection" value="&#x09;public Rifugio() {"/>
 		<list key="findhistory">
+			<item value="&#x09;public Rifugio() {"/>
+			<item value="&#x09;private double base;"/>
 			<item value="        productsList.remove(0);"/>
 			<item value="&#x09;&#x09;Scanner scanner = new Scanner(System.in);"/>
 		</list>
