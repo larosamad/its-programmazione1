@@ -1,9 +1,0 @@
-package _07_animali;
-
-public abstract class Animale {
-	private String nome;
-	public abstract void emettiVerso();
-	public void descrizione() {
-		System.out.println("Sono un animale di nome"+nome);
-	}
-}

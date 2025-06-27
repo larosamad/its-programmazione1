@@ -1,7 +1,0 @@
-package _07_animali;
-
-public abstract class Animale {
-	public abstract String nome;
-	
-	
-}
