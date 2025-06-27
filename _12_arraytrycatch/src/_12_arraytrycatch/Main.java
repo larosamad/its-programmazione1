@@ -20,7 +20,6 @@ public class Main {
 		} finally {
 			scanner.close();
 		}
-		
 	}
 
 }
