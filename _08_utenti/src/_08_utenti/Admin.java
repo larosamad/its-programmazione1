@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Admin extends Utente {
 	
-	public Admin(String username, String email, boolean isSerious) {
+	public Admin(String username, String email) {
 		super(username, email);
 	}
 	

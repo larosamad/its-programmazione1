@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Cliente extends Utente {
 	
-	public Cliente(String username, String email, boolean isSerious) {
+	public Cliente(String username, String email) {
 		super(username, email);
 	}
 	

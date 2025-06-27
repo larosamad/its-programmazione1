@@ -18,9 +18,10 @@ public class Main {
             System.out.println("Divisione: " + numeroA / numeroB);
        	} catch (ArithmeticException e) {
        		System.out.println("Errore");
+       	} finally {
+            scanner.close();
        	}
 
-        scanner.close();
 	}
 
 }
