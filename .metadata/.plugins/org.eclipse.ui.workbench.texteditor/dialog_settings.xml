@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="java.lang.Class">
-		<item key="selection" value="&#x09;public Rifugio() {"/>
+		<item key="selection" value="&#x09;public Carrello() {"/>
 		<list key="findhistory">
+			<item value="&#x09;public Carrello() {"/>
 			<item value="&#x09;public Rifugio() {"/>
 			<item value="&#x09;private double base;"/>
 			<item value="        productsList.remove(0);"/>
