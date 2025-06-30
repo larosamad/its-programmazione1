@@ -1,4 +1,4 @@
-package _14_posta;
+package _14_postaqueue;
 
 public class Person {
 

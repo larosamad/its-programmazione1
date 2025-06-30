@@ -1,4 +1,4 @@
-package _14_posta;
+package _14_postaqueue;
 
 public class Main {
 
@@ -21,8 +21,6 @@ public class Main {
 		
 		// Mostra la coda rimanente
 		posta.showQueue();
-
-
 	}
 
 }
