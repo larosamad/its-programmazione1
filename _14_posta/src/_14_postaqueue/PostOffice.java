@@ -18,6 +18,9 @@ public class PostOffice {
     public void whosNext() {
     	Person nextPerson = queue.peek();
         System.out.println(nextPerson.getName() + " is next.");
+        // oppure:
+        // System.out.println(queue.peek().getName() + " is next.");
+
     }
     
     public void serveNext() {
