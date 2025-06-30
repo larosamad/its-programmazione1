@@ -4,9 +4,9 @@ import java.util.Queue;
 
 public class PostOffice {
 	private Queue<Person> queue;
-	
 
     public PostOffice() {
+    	
         queue = new LinkedList<>();
     }
     
@@ -31,5 +31,5 @@ public class PostOffice {
     		System.out.println("- " + person.getName());
     	}
     }
-  
+    
 }
