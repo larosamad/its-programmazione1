@@ -3,6 +3,7 @@ package _14_postaqueue;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		PostOffice posta = new PostOffice();
 		// Aggiungi almeno 3 persone alla coda
 		posta.joinQueue(new Person("Romolo"));

@@ -4,6 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Stack;
 
 public class Browser {
+	
 	private Stack<String> stack;
 	
 	public Browser() {
@@ -37,4 +38,5 @@ public class Browser {
 			System.out.println(url);
 		}
 	}
+
 }

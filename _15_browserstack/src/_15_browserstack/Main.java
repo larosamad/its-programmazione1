@@ -13,7 +13,6 @@ public class Main {
 		
 		mozilla.previousPage();
 
-
 		// Uso del tasto “indietro” una o due volte.
 		mozilla.goBack();
 		mozilla.goBack();

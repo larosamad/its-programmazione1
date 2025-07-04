@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<section name="java.lang.Class">
 		<item key="selection" value="&#x09;public Carrello() {"/>
+		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="Nome"/>
+			<item value="nome"/>
 			<item value="&#x09;public Carrello() {"/>
 			<item value="&#x09;public Rifugio() {"/>
 			<item value="&#x09;private double base;"/>
 			<item value="        productsList.remove(0);"/>
 			<item value="&#x09;&#x09;Scanner scanner = new Scanner(System.in);"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Name"/>
+			<item value="name"/>
 		</list>
 	</section>
 </section>
