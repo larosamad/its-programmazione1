@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<Utente> utenti = new ArrayList<>();
-        String password = "studente123";
-        // String password = "prof2024";
+        // String password = "studente123";
+        String password = "prof2024";
 
         utenti.add(new Studente("Gino", "gino@email.it", "AAH82718"));
         utenti.add(new Professore("Lino", "marco@email.edu", "matematica"));
@@ -21,7 +21,7 @@ public class Main {
                     utente.autentica(password);
                     System.out.println("Accesso avvenuto.");
                 } catch (AutenticazioneException e) {
-                    System.out.println("Accesso negato. Errore: " + e.getMessage());
+                    System.out.println("Accesso negato. Motivo: " + e.getMessage());
                 }
             }
             
